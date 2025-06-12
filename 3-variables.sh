@@ -1,9 +1,11 @@
-#!/bin/bash/
-PERSON1=Modi #no space before and after =
-PERSON2=Musk
+#!/bin/bash
+
 #if i want to change the person name no need to change everywhere, just change in top , i.e., variables
-echo "$PESRON1:: Hey $PESRON2, How are you?"
-echo "$PESRON2:: Hello $PESRON1, I am fine. How are you doing"
-echo "$PESRON1: I am fine too. What's up?"
-echo "$PESRON2:: Nohting, just going to Mars now, will you come?"
-echo "$PESRON1:: Sorry, you carry on! I will come once you come back"
+PERSON1=Modi #there should be no space before and after =
+PERSON2=Musk
+
+echo "$PERSON1:: Hey $PERSON2, How are you?"
+echo "$PERSON2:: Hello $PERSON1, I am fine. How are you doing"
+echo "$PERSON1:: I am fine too. What's up?"
+echo "$PERSON2:: Nohting, just going to Mars now, will you come?"
+echo "$PERSON1:: Sorry, you carry on! I will come once you come back"
