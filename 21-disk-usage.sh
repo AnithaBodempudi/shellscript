@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DISK_USAGE=$(DF -HT | grep -v Filesystem)
+DISK_USAGE=$(df -hT | grep -v Filesystem)
 DISK_THRESHOLD=1 # in projeect it will be 75
 MSG=""
 
@@ -11,5 +11,5 @@ do
   if [ $USAGE -ge $DISK_THRESHOLD ]
   then 
       MSG="High Disk Usage on $PARTITION: $USAGE"
-      fi
+    fi
   done <<< $DISK_USAGE
